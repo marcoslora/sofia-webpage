@@ -1,27 +1,69 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>LatinBook</title>
+    <title>Taxes Page</title>
   </head>
   <body>
-    <h1>LATIN BOOKKEPING & PAYROLL</h1>
-    <ul>
-      <li>Contabilidad de companias</li>
-      <li>PAYROLL</li>
-      <li>W2 & 1099 FORMS</li>
-      <li>Impuestos Corporativos</li>
-      <li>Impuestos Personales</li>
-      <li>Registros y Renovaciones de Compañias</li>
-      <li>Sales Taxes</li>
-    </ul>
-    <p>office@latinbookkeping.com</p>
-    <p>
-      Phone number <br />
-      (984) 895-1212
-    </p>
-    <footer></footer>
+    <header>
+      <div class="logo-container">
+        <a href="#" class="logo">Taxes Page</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Tax Preparation Services</h2>
+        <p>Our tax preparation services include:</p>
+        <ul>
+          <li>Individual tax returns</li>
+          <li>Business tax returns</li>
+          <li>Tax planning and consulting</li>
+          <li>IRS problem resolution</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Tax Resources</h2>
+        <p>Here are some helpful tax resources:</p>
+        <ul>
+          <li><a href="#">IRS Forms and Publications</a></li>
+          <li><a href="#">State Tax Departments</a></li>
+          <li><a href="#">Tax Calculator</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Taxes Page</p>
+    </footer>
   </body>
 </html>
